@@ -2,14 +2,14 @@ import pandas as pd
 import numpy as np
 import os
 import pickle
+import sys
 from IPython.display import clear_output
 from tpot import TPOTClassifier
 from sklearn.feature_selection import VarianceThreshold
 try:
     import misvm 
 except:
-    print("please use command to install MIL modelling package \n pip install -e git+https://github.com/garydoranjr/misvm.git#egg=misvm")
-    quit()
+    sys.exit("please use command to install MIL modelling package \n pip install -e git+https://github.com/garydoranjr/misvm.git#egg=misvm")
 
 def updater(mdl,splt,enc,fld):
     clear_output(wait=True)
