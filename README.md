@@ -1,4 +1,4 @@
-# Multiple-instance-learning-improves-Ames-mutagencity-prediction-for-problematic-molecular-species
+# Multiple instance learning improves Ames mutagencity prediction for problematic molecular species
 A Github repository to accompany the paper of the same name
 
 ## Simply overview
