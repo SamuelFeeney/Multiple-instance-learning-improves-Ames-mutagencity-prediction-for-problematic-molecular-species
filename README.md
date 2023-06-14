@@ -23,9 +23,9 @@ This repository contains all the code required to build and analyze the models p
 
 ## Dataset information
 The datasets used in the paper are supplied in this github.
-The "Aromatic amine" dataset (n=457): contains the aromatic amines found in the collected datasets.\
+* The "Aromatic amine" dataset (n=457): contains the aromatic amines found in the collected datasets.\
   found at: ./data/raw/selected_molecules.csv\
-The adapted Hansen dataset (n=6505): This is the Hansen dataset after the removal of the molecules whose smiles couldn't be read by RDKit.\
+* The adapted Hansen dataset (n=6505): This is the Hansen dataset after the removal of the molecules whose smiles couldn't be read by RDKit.\
   found at: ./data/raw/hansen_raw/Hansen_all_molecules.csv\
 
 ## Other notes
