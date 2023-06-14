@@ -21,6 +21,13 @@ This repository contains all the code required to build and analyze the models p
 #### Other
 * MIL figures : excel spreadsheet featuring the transformed data for the presented results and figures
 
+## Dataset information
+The datasets used in the paper are supplied in this github.
+The "Aromatic amine" dataset (n=457): contains the aromatic amines found in the collected datasets.
+  found at: ./data/raw/selected_molecules.csv
+The adapted Hansen dataset (n=6505): This is the Hansen dataset after the removal of the molecules whose smiles couldn't be read by RDKit.
+  found at: ./data/raw/hansen_raw/Hansen_all_molecules.csv
+
 ## Other notes
 * There are quite a few packages required to actually run the code given here. If you have experience in python or similar languages this shouldn't be a problem. If not then most packages are popular and how to install them should be available online. The exception is Gary Doran's MIL package which the github link associated will will be printed to the terminal if you need it and don't have it.
 * All model building and data splitting sections should be given a set seed so results should be reproducible. If not the results gathered are those saved in the repository.
